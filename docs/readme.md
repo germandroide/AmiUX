@@ -1,5 +1,5 @@
 ARCHITECTURE.md
-                                       +-----------------+
+```                                       +-----------------+
                                        |      User       |
                                        +--------+--------+
                                                 |
@@ -38,7 +38,7 @@ ARCHITECTURE.md
         v
      +---------+
      | Monitor |
-     +---------+
+     +---------+```
 content_copy
 download
 Use code with caution.
