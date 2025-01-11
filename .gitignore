@@ -1,0 +1,11 @@
+# Archivos temporales
+*.tmp
+*.bak
+
+# Archivos de compilación
+*.o
+*.obj
+
+# Archivos binarios
+*.bin
+*.exe
