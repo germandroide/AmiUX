@@ -46,7 +46,7 @@ Pistorm can recieve rendered screen outputs from Amiberry from the ARM side exte
 
 Explanation of Components:
 (Before yo need to install AmiUX app in Linux, Amiberry/FS-UAE and AmiUX.OS3 in the AmigaEmulator)
-
+Pistorm is open to any ARM sbc like Raspberry, not only any concrete models
 User: Interacts with the AmiUX graphical user interface.
 
 AmiUX (Linux): The AmiUX environment running on Linux, which launches the emulator and interface manager.
