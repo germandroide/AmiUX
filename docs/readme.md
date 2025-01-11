@@ -15,14 +15,15 @@ ARCHITECTURE.md
 +-----------------------+     Interface    +----------------------+
 | Interface Manager    | <-------------- |    OS3uae.library    |
 | (MUI5/SDL/Vulkan/Wayland)|                +--------+---------+
-+---------+----------+                |
++---------+----------+          |
                                 |  Host Resource Access
                                 |  (Files, Network, Hardware)
                                 v
                            +-----------+
                            |   Linux   |
                            +-----------+
-
+-------------------------------------------------------------------------------------------
+Pistorm can recieve rendered screen outputs from Amiberry from the ARM side extension board
 +----------------------------------------+
 |  PiStorm Mode (optional)             |
 +----------------------------------------+
@@ -38,12 +39,13 @@ ARCHITECTURE.md
         v
      +---------+
      | Monitor |
-     +---------+```
-content_copy
-download
-Use code with caution.
+     +---------+
+```
+
+
 
 Explanation of Components:
+(Before yo need to install AmiUX app in Linux, Amiberry/FS-UAE and AmiUX.OS3 in the AmigaEmulator)
 
 User: Interacts with the AmiUX graphical user interface.
 
