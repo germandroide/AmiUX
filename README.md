@@ -31,6 +31,25 @@ AmiUX leverages an optimized AmigaOS 3.x emulator (WinUAE/FS-UAE/Amiberry) coupl
 
 We welcome contributions from the community!  Please see our contributing guidelines (coming soon) for details on how to get involved.
 
+**Project Status:**
+
+AmiUX is currently in early stages of development. We are working on setting up the core infrastructure and defining the key components.  We welcome contributions from developers, designers, and Amiga enthusiasts.
+
+**How to Contribute:**
+
+We encourage community involvement!  You can contribute by:
+
+* Reporting bugs and suggesting improvements.
+* Contributing code and documentation.
+* Translating the README and other materials.
+* Spreading the word about AmiUX.
+
+**Connect with us:**
+
+* [Blog](enlace a tu blog)
+* [Website](https://sites.google.com/view/aruxos/inicio?authuser=0 )
+* [Telegram Group]( https://t.me/+cArwmiO1IwZmOGM0 )
+
 **License:**
 
 GPLv3
