@@ -48,7 +48,7 @@ We encourage community involvement!  You can contribute by:
 
 * [Blog](enlace a tu blog)
 * [Website](https://sites.google.com/view/aruxos/inicio?authuser=0 )
-* [Telegram Group]( https://t.me/+cArwmiO1IwZmOGM0 )
+* [Telegram Channel]( https://t.me/+cArwmiO1IwZmOGM0 )
 
 **License:**
 
