@@ -46,7 +46,6 @@ We encourage community involvement!  You can contribute by:
 
 **Connect with us:**
 
-* [Blog](enlace a tu blog)
 * [Website](https://sites.google.com/view/aruxos/inicio?authuser=0 )
 * [Telegram Channel]( https://t.me/+cArwmiO1IwZmOGM0 )
 
