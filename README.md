@@ -41,7 +41,6 @@ We encourage community involvement!  You can contribute by:
 
 * Reporting bugs and suggesting improvements.
 * Contributing code and documentation.
-* Translating the README and other materials.
 * Spreading the word about AmiUX.
 
 **Connect with us:**
