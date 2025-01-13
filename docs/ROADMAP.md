@@ -1,6 +1,6 @@
 # AmiUX Roadmap
 
-This document outlines the planned development stages and goals for the AmiUX project.
+This document outlines the planned development stages and goals for the AmiUX project. https://github.com/germandroide/AmiUX/blob/3e7625a77d168ae98ca35222bcb4cea243cd2957/docs/PLANNING_PHASE1.md
 
 ## Phase 1: Basic Functional Prototype (Proof of Concept)
 
