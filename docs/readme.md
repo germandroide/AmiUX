@@ -64,3 +64,14 @@ Amiga Hardware (ECS/AGA/Paula) (Optional, PiStorm Mode): The original Amiga hard
 Monitor: The display where the AmiUX interface is shown.
 
 This diagram provides a visual representation of the AmiUX architecture. 
+
+## Graphical User Interface
+
+AmiUX will utilize MUI5 to provide a modern and responsive user interface while retaining the classic AmigaOS look and feel.  We plan to leverage the capabilities of modern Linux graphics libraries (SDL/Vulkan/Wayland) to enhance the visual experience with features like transparencies, rounded corners, and shadows.  The OS3uae.library will intercept MUI calls and transmit the necessary information to a dedicated Linux application responsible for rendering the GUI.
+
+**References:**
+
+* [MUI Dev Wiki](https://github.com/amiga-mui/muidev/wiki)
+* [Zune (AROS Widget Toolkit)](https://en.wikipedia.org/wiki/Zune_(widget_toolkit))
+* [Ambient (MorphOS Desktop Environment)](https://en.everybodywiki.com/Ambient_(desktop_environment))
+* [AmigaOS.MUI.cpp.wrapper](https://github.com/tdolphin-org/AmigaOS.MUI.cpp.wrapper)
