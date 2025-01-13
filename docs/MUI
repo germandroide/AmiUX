@@ -1,0 +1,33 @@
+# AmiUX Architecture - Graphical User Interface Integration
+
+This document details how AmiUX integrates MUI for its graphical user interface, leveraging the power and flexibility of Linux while maintaining compatibility with AmigaOS 3.x.
+
+## MUI Integration
+
+AmiUX employs MUI5 for its GUI, offering a modern look and feel while preserving the classic AmigaOS experience.  The integration process relies heavily on OS3uae.library, a crucial component that acts as a bridge between the emulated AmigaOS environment and the Linux host.
+
+Here's how it works:
+
+1. **MUI Calls within AmigaOS:** When an AmigaOS application makes a call to a MUI function (e.g., creating a window, drawing a button), the call is initially directed to the emulated MUI libraries within Amiberry.
+
+2. **Interception by OS3uae.library:** OS3uae.library intercepts these MUI calls using hooks or by modifying the method tables of MUI classes. This allows AmiUX to inspect and potentially modify the parameters of the MUI calls.
+
+3. **Data Extraction and Transmission:** OS3uae.library extracts the relevant information from the intercepted MUI call. This includes details such as the widget type, its properties (size, position, text, etc.), and any associated events (mouse clicks, keyboard input).  This data is then serialized and transmitted to the AmiUX Linux application.
+
+4. **Rendering on Linux:** The AmiUX Linux application receives the serialized data and uses a modern graphics library (SDL, Vulkan, or Qt) to render the corresponding MUI widgets on the Linux desktop.  This effectively recreates the AmigaOS GUI within the Linux environment.
+
+5. **Event Handling and Feedback:**  The Linux application also captures user input events (mouse clicks, keyboard presses) related to the rendered MUI elements.  These events are then sent back to AmigaOS via OS3uae.library, allowing the AmigaOS application to respond accordingly.
+
+## Using a C++ Wrapper (Potential)
+
+A C++ wrapper for MUI could further simplify the development of the Linux application.  The wrapper would provide a C++ interface to the MUI functions, allowing the Linux application to interact with MUI using familiar C++ syntax and paradigms.  This would reduce the need for low-level interaction with the serialized data transmitted by OS3uae.library. The wrapper acts as an abstraction layer, simplifying development and potentially offering performance benefits.
+
+## Learning from Zune and Ambient
+
+The Zune widget toolkit for AROS and the Ambient desktop environment for MorphOS provide valuable insights into MUI integration strategies.  Examining their codebases can help the AmiUX project understand the challenges and solutions involved in porting or adapting MUI to different environments.
+
+* **Zune:** As a MUI clone, Zune's source code can reveal how MUI's internal structures and functions can be replicated or adapted for compatibility.
+
+* **Ambient:** Ambient demonstrates how to create a full-fledged desktop environment using MUI.  Its source code can offer valuable examples of MUI usage and integration with the underlying operating system.
+
+By studying these projects, AmiUX can learn from their successes and avoid potential pitfalls, ultimately leading to a more robust and efficient implementation of the graphical user interface.
