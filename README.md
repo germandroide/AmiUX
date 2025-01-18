@@ -19,6 +19,10 @@ AmiUX reimagines AmigaOS 3.x for the modern age, seamlessly integrating its clas
 
 AmiUX leverages an optimized AmigaOS 3.x emulator (WinUAE/FS-UAE/Amiberry) coupled with a custom interface manager on Linux.  Communication between AmigaOS and Linux is facilitated by OS3uae.library, enabling access to host resources and modern APIs. The PiStorm implementation interacts directly with classic Amiga hardware, creating a unique hybrid experience.
 
+## Portability
+
+AmiUX brings AmigaOS to a wide range of modern platforms, including x86, ARM, and (planned) PowerPC and classic Amiga hardware via PiStorm.  [Learn more about portability](https://github.com/germandroide/AmiUX/wiki/Portability)
+
 **Installation:**
 
 (Instructions coming soon)
